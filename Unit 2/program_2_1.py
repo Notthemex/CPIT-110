@@ -1,5 +1,5 @@
 #Ask the user for the radius
-radius = float(input("Enter the radius: "))
+radius = eval(input("Enter the radius: "))
 #Assign value of pi
 pi = 3.14159
 #Compute area using formula Area^2 * radius
