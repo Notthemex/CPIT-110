@@ -3,9 +3,9 @@ import math as m
 
 #Ask the user for the radius
 radius = eval(input("Enter the radius: "))
-#Assign value of pi
-pi = 3.14159
-#Compute area using formula Area^2 * radius
+
+#Compute area using formula radius^2 * pi
 area = m.pi * m.exp2(radius)
+
 #Print out the area
 print(f"Based off of the radius ({radius}), the area of your circle is: {area}!")
