@@ -1,4 +1,5 @@
-name = input("What is your name? ")
-age = int(input("What is your age? "))
-
-print(f"Your name is {name} and you are {age} years old!")
+import math as m
+x = 0.1
+y = 0.2
+z = m.ceil(x+y)
+print(z)
